@@ -29,7 +29,9 @@ body{
 
 .post_title{
     font-style: italic;
-    font-size:28px;
+    font-size:20px;
+    margin-left: 0px;
+    
 }
 
 .post_image{
