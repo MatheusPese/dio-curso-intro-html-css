@@ -1,0 +1,44 @@
+
+body{
+    background: #191820;
+    color: #f0eefa;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.title, .subtitle, .posttitle{
+ font-weight: bolder;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.subtitle{
+    font-style: italic;
+    font-size: 32px;
+}
+
+.post{
+    background-color: #1d1c24;
+    padding: 1px 1em 1em 1em;
+
+    margin: 10px;
+    border: 1px solid #827f94;
+}
+
+.post_title{
+    font-style: italic;
+    font-size:28px;
+}
+
+.post_image{
+    width:100%;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(WorkSans.ttf);
+}
