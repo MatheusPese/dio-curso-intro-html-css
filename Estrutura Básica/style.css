@@ -2,10 +2,7 @@
 body{
     background: #191820;
     color: #f0eefa;
-    font-family:'Work Sans', sans-serif;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    font-family:'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title, .subtitle, .posttitle{
