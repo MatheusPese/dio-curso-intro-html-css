@@ -42,12 +42,23 @@ body{
 
 .post_image{
     width:100%;
+    position:relative;  
+    top:50%;
+    left:50%;
+    transform:translate(-50%, 0);
+}
+.post_image:hover{
+    width:101%;
+
+    justify-content: center;  
+
 }
 
 @font-face {
     font-family: 'Work Sans';
     src: url(WorkSans.ttf);
 }
+
 a{
     color: lightskyblue;
 }
