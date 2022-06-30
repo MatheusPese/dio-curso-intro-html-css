@@ -57,3 +57,27 @@ a:hover{
     text-transform: uppercase;
     
 }
+
+@counter-style contact_list{
+    system:fixed;
+    symbols: '📩' '👥' '🐙'; 
+    fallback: contact_list_abreviation;
+    suffix:' ';
+}
+
+@counter-style contact_list_abreviation{
+    system:fixed;
+    symbols: "EM" "LN" "GH"
+    fallback: blank;
+    suffix:' ';
+}
+@counter-style blank{
+    system: cyclic;
+    symbols: ' ';
+}
+
+.contact_list {
+    list-style-type:contact_list;
+    font-size: 70%;
+    font-weight: 50%;
+}
