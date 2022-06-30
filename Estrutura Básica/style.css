@@ -5,8 +5,9 @@ body{
     font-family:'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.title, .subtitle, .posttitle{
+.title, .subtitle, .post_title{
  font-weight: bolder;
+ margin-left:10px
 }
 
 .title{
