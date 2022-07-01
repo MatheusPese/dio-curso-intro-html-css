@@ -51,6 +51,12 @@ body{
     left:50%;
     transform:translate(-50%, 0);
 }
+
+.post_content{
+    text-align: justify;
+    margin-bottom:10px;
+}
+
 .post_image:hover{
     width:101%;
 }
